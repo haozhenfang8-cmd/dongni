@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+const q=JSON.parse(fs.readFileSync('data/questions.json','utf8'));if(q.length<300||q.length>500)throw Error('题库数量必须在300–500');if(new Set(q.map(x=>x.title)).size!==q.length)throw Error('重复题干');if(q.some(x=>x.options.length<2||new Set(x.options).size!==x.options.length||x.options.some(o=>!o.trim())||'correct' in x))throw Error('数据格式错误');console.log(`PASS ${q.length} questions; canonical source data/questions.json. Use existing versioned SQL migrations for import.`);

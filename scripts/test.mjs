@@ -1,0 +1,2 @@
+import {spawnSync}from'node:child_process';
+const commands=[['node_modules/typescript/bin/tsc','--noEmit'],['node_modules/vite/bin/vite.js','build'],['node_modules/esbuild/bin/esbuild','worker/index.ts','--bundle','--platform=node','--format=esm','--outfile=tests/worker.mjs'],['tests/integration.mjs'],['scripts/seed.mjs']];for(const args of commands){const r=spawnSync(process.execPath,args,{stdio:'inherit'});if(r.status!==0)process.exit(r.status||1)}

@@ -1,0 +1,12 @@
+CREATE TABLE profiles(id TEXT PRIMARY KEY, name TEXT NOT NULL, email TEXT);
+CREATE TABLE documents(id TEXT PRIMARY KEY,owner TEXT NOT NULL,title TEXT NOT NULL,description TEXT NOT NULL DEFAULT '',questions TEXT NOT NULL,updated INTEGER NOT NULL);
+CREATE INDEX documents_owner ON documents(owner);
+CREATE TABLE versions(id TEXT PRIMARY KEY,document TEXT NOT NULL,owner TEXT NOT NULL,title TEXT NOT NULL,description TEXT NOT NULL,questions TEXT NOT NULL,created INTEGER NOT NULL);
+CREATE INDEX versions_document ON versions(document);
+CREATE TABLE attempts(id TEXT PRIMARY KEY,version TEXT NOT NULL,nickname TEXT NOT NULL,answers TEXT NOT NULL,score INTEGER NOT NULL,total INTEGER NOT NULL,created INTEGER NOT NULL,client TEXT NOT NULL);
+CREATE INDEX attempts_ranking ON attempts(version,score DESC,created);
+CREATE UNIQUE INDEX attempts_once ON attempts(version,client);
+CREATE TABLE submissions(id TEXT PRIMARY KEY,owner TEXT NOT NULL,question TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'pending',reason TEXT NOT NULL DEFAULT '',created INTEGER NOT NULL);
+CREATE INDEX submissions_owner ON submissions(owner);
+CREATE TABLE bank(id TEXT PRIMARY KEY,category TEXT NOT NULL,body TEXT NOT NULL,active INTEGER NOT NULL DEFAULT 1);
+CREATE TABLE rate_limits(key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);
