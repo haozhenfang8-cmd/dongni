@@ -25,3 +25,5 @@ console.log('PASS long questionnaire storage (2100 questions), CSRF, invalid ans
 
 const before=db.prepare('select count(*) n from attempts').get().n;const together={...submission,client:'concurrent-client-00000000000000000001'};const concurrent=await Promise.all([call('play/'+v.id+'/submit',together),call('play/'+v.id+'/submit',together)]);assert.equal(concurrent[0].d.id,concurrent[1].d.id);assert.equal(db.prepare('select count(*) n from attempts').get().n,before+1);
 const sessionCookie=(await call('auth/login',{username:'bob',password:'another secure long password'})).cookie;db.prepare('update sessions set expires=0 where user_id=?').run(b.d.id);await call('me',null,401,sessionCookie);console.log('PASS parallel duplicate submission has one record and same result; expired sessions rejected');
+
+cookie=(await call('auth/login',{username:'alice',password:'a completely different password'})).cookie;assert.ok((await call('admin/stats')).d.users>=2);console.log('PASS administrator summary access');

@@ -1,6 +1,6 @@
 # dongni · 懂你
 
-朋友默契测试平台。沿用第一版 React + Vite + TypeScript / Cloudflare Workers + D1 架构（免费 SQLite Durable Object 承担密码计算）。已移除 Auth.js 和全部第三方登录。
+朋友默契测试平台。沿用第一版 React + Vite + TypeScript / Cloudflare Workers + D1 架构（免费 SQLite Durable Object 承担API计算）。已移除 Auth.js 和全部第三方登录。
 
 **已部署：https://know-me.know-me.workers.dev 。真实线上 API 核心流程已通过；真实手机、微信与无代理大陆网络尚未验证。**
 
@@ -54,7 +54,7 @@ pnpm preview:local
 
 不需要OAuth密钥、邮件服务或付费AI。邮箱目前仅为可选资料，密码恢复统一使用一次性恢复码；没有验证过的邮箱不能直接重置密码。
 
-**免费 CPU 实测与处理：** 第一轮将scrypt直接放在普通Worker时，线上采样CPU P99约274ms，虽然请求成功，但超出10ms预算。最终将认证放到Free支持的SQLite Durable Object（AuthService），其默认CPU预算30秒。密码不落DO存储，用户/哈希/会话仍在D1；保留同等scrypt参数。迁移后的短时Worker采样P99约7.3ms、0错误，线上注册登录恢复等核心流程通过。样本较小，不能替代持续负载和极端长问卷测试。
+**免费 CPU 实测与处理：** 第一轮将scrypt直接放在普通Worker时，线上采样CPU P99约274ms，虽然请求成功，但超出10ms预算。最终将认证放到Free支持的SQLite Durable Object（AuthService），其默认CPU预算30秒。随后将其他API处理也放入相同内部DO，普通Worker仅路由API与静态资源，以避免JSON/业务计算的冷启动峰值。密码不落DO存储，用户/哈希/会话仍在D1；保留同等scrypt参数。迁移后的短时Worker采样P99约7.3ms、0错误，线上注册登录恢复等核心流程通过。样本较小，不能替代持续负载和极端长问卷测试。
 
 Durable Object 免费额度耗尽会导致服务不可用，不会自动开通Paid。该方案增加一个内部计算绑定，未引入付费认证、第三方登录或额外数据库采购。官方免费DO限制：https://developers.cloudflare.com/durable-objects/platform/limits/ ，定价：https://developers.cloudflare.com/durable-objects/platform/pricing/ 。
 
@@ -79,3 +79,6 @@ Free D1提供7天Time Travel：`wrangler d1 time-travel info know-me`，恢复�
 ## 测试与剩余工作
 
 详见 docs/TEST_REPORT.md 和 docs/TASKS.md。真实手机、微信内置浏览器、大陆网络、Cloudflare线上长期CPU负载尚未验证，远程导出恢复已演练。当前没有性能测量结论或生产SLA。长问卷已测试2100题拆行存储，仍受D1请求/批处理/结果大小和Worker CPU/内存真实限制，不能声称无限题数无限吞吐。
+
+
+当前已部署版本：75de4753-223f-4926-8496-652448331dc9。线上验证会保留 smoke_ 开头的合成测试账号及其私有问卷；这些不是其他真实访客。

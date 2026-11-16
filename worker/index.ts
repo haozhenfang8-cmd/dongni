@@ -1,14 +1,14 @@
 import {readQuestions,questionStatements,readOwnerBundles} from './storage';
 import {authRoute,currentUser} from './auth';
-type Env={DB:D1Database;ASSETS:Fetcher;ADMIN_USER_IDS:string;AUTH_SERVICE:DurableObjectNamespace};
+type Env={DB:D1Database;ASSETS:Fetcher;ADMIN_USER_IDS:string;AUTH_SERVICE:DurableObjectNamespace;INTERNAL_COMPUTE?:boolean};
 const json=(v:unknown,s=200)=>Response.json(v,{status:s,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 const id=()=>crypto.randomUUID();
 function validate(q:any){if(!Array.isArray(q)||!q.length)throw Error('请至少添加一道题');for(const x of q){if(typeof x.title!=='string'||!x.title.trim()||!Array.isArray(x.options)||x.options.length<2||x.options.some((o:any)=>typeof o!=='string'||!o.trim())||new Set(x.options.map((o:string)=>o.trim())).size!==x.options.length||!Array.isArray(x.correct)||!x.correct.length||x.correct.some((n:any)=>!Number.isInteger(n)||n<0||n>=x.options.length))throw Error('请检查题干、选项与正确答案');}}
-export default {async fetch(req:Request,e:Env):Promise<Response>{try{const u=new URL(req.url),p=u.pathname;if(!p.startsWith('/api/'))return e.ASSETS.fetch(req);
+const app = {async fetch(req:Request,e:Env):Promise<Response>{try{const u=new URL(req.url),p=u.pathname;if(p.startsWith('/api/')&&!e.INTERNAL_COMPUTE)return await e.AUTH_SERVICE.get(e.AUTH_SERVICE.idFromName('auth-v1')).fetch(req);if(!p.startsWith('/api/'))return e.ASSETS.fetch(req);
 if(req.method!=='GET'&&req.headers.get('Origin')!==u.origin)return json({error:'来源校验失败'},403);
 if(Number(req.headers.get('Content-Length')||0)>16000000)return json({error:'请求过大，请分批保存'},413);
 const b=req.method==='GET'?{}:await req.json() as any;
-if(p.startsWith('/api/auth/'))return await e.AUTH_SERVICE.get(e.AUTH_SERVICE.idFromName('auth-v1')).fetch(new Request(req.url,{method:req.method,headers:req.headers,body:req.method==='GET'?undefined:JSON.stringify(b)}));
+if(p.startsWith('/api/auth/'))return await authRoute(req,e,b);
 const rows=async(sql:string,...v:any[])=>(await e.DB.prepare(sql).bind(...v).all()).results;
 if(p==='/api/categories'&&req.method==='GET')return json(await rows('SELECT * FROM categories WHERE active=1 ORDER BY section,name'));
 if(p==='/api/bank')return json(await rows('SELECT b.body FROM bank b JOIN categories c ON c.name=b.category WHERE b.active=1 AND c.active=1').then(r=>r.map((x:any)=>JSON.parse(x.body))));
@@ -23,6 +23,7 @@ const score=qs.filter((q:any,i:number)=>q.correct.includes(b.answers[i])).length
 return json({id:v.id,cover:v.cover,title:v.title,description:v.description,questions:qs.map(({correct,...q}:any)=>q)});}
 const user=await currentUser(req,e);if(!user)return json({error:'请先登录'},401);const admin=user.admin;
 
+if(p==='/api/admin/stats'&&admin&&req.method==='GET')return json(await e.DB.prepare('SELECT (SELECT count(*) FROM users) AS users,(SELECT count(*) FROM documents) AS documents,(SELECT count(*) FROM attempts) AS attempts,(SELECT count(*) FROM bank WHERE active=1) AS bank').first());
 if(p==='/api/admin/categories'&&admin&&req.method==='POST'){if(typeof b.name!=='string'||!b.name.trim()||b.name.length>50)throw Error('分类名称无效');await e.DB.prepare('INSERT INTO categories VALUES (?,?,?,?) ON CONFLICT(name) DO UPDATE SET description=excluded.description,section=excluded.section,active=excluded.active').bind(b.name.trim(),String(b.description||''),b.section==='personality'?'personality':'interest',b.active===false?0:1).run();return json({ok:true});}
 if(p==='/api/favorites'&&req.method==='GET')return json((await rows('SELECT question_id FROM favorites WHERE owner=?',user.id)).map((x:any)=>x.question_id));
 if(p==='/api/favorites'&&req.method==='POST'){if(typeof b.id!=='string')throw Error('缺少题目');await e.DB.prepare(b.remove?'DELETE FROM favorites WHERE owner=? AND question_id=?':'INSERT OR IGNORE INTO favorites VALUES (?,?)').bind(user.id,b.id).run();return json({ok:true});}
@@ -44,6 +45,8 @@ if(p==='/api/review'&&admin&&req.method==='POST'){const s:any=await e.DB.prepare
 return json({error:'接口不存在'},404);
 }catch(err){console.error(err);return json({error:err instanceof Error&&err.message.includes('UNIQUE')?'你已经参与过这个版本':err instanceof Error?err.message:'请求失败'},400);}},async scheduled(_controller:ScheduledController,e:Env){await e.DB.batch([e.DB.prepare('DELETE FROM sessions WHERE expires<?').bind(Date.now()),e.DB.prepare('DELETE FROM rate_limits WHERE expires<?').bind(Date.now())]);}};
 
-// SQLite Durable Objects are available on Free and have a 30-second CPU budget.
-// No credentials or request bodies are written to Durable Object storage.
-export class AuthService {constructor(private state:DurableObjectState,private env:Env){}async fetch(req:Request){return this.state.blockConcurrencyWhile(async()=>{try{const b=req.method==='GET'?{}:await req.json();return await authRoute(req,this.env,b)}catch(error){console.error('Authentication request failed');return json({error:error instanceof Error&& !error.message.includes('SQL')?error.message:'认证暂时不可用'},400)}})}}
+export default app;
+// Free SQLite DO hosts API compute, while D1 remains the persistent system of record.
+// Legacy class name is retained to preserve the existing namespace migration.
+// Request bodies and passwords are never written to Durable Object storage.
+export class AuthService {constructor(private state:DurableObjectState,private env:Env){}async fetch(req:Request){return this.state.blockConcurrencyWhile(()=>app.fetch(req,{...this.env,INTERNAL_COMPUTE:true}));}}
