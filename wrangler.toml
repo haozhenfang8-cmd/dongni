@@ -11,10 +11,20 @@ run_worker_first = ["/api/*", "/auth/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "know-me"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "a0d881af-32fb-489b-94cd-0b7abc92c1f9"
 migrations_dir = "migrations"
 [vars]
-ADMIN_USER_IDS = ""
+ADMIN_USER_IDS = "0d4c906f-1b15-487a-9f33-0fe43b3e9e4e"
 
 [triggers]
 crons = ["17 3 * * *"]
+
+
+[[durable_objects.bindings]]
+name = "AUTH_SERVICE"
+class_name = "AuthService"
+
+[[migrations]]
+tag = "auth-do-v1"
+new_sqlite_classes = ["AuthService"]
+

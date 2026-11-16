@@ -24,3 +24,14 @@
 复现：node scripts/test.mjs；python scripts/check_data.py；python tests/migration.py。
 
 GitHub：源码已推送至 https://github.com/haozhenfang8-cmd/dongni ，初次提交6147b1810db3869e2bc45c3a407e5d8972bd008c；后续改进待下一次同步。
+
+## 真实Cloudflare验证（2026-11-16）
+
+- 新建Free D1，0001–0009迁移成功；线上确认320题。
+- URL https://know-me.know-me.workers.dev 。
+- 真实HTTPS：题库、用户名注册、登录、me、草稿、发布、退出、免注册读取、提交、重复重试同结果、排行榜、恢复码重置，全部200并通过断言。两轮部署后均通过，最新认证使用SQLite DO。
+- 初版CPU P99约273670微秒，0错误，但不满足普通Worker10ms目标。认证迁移到免费SQLite DO默认30秒CPU预算后，短时普通Worker采样P99约7339微秒，0错误、4请求；样本较小，不能宣称所有请求或持续负载都在10ms内。
+- 真实D1导出SQL成功，导入独立空验证库成功，验证库320题；未覆盖或删除原库。
+- 初始TLS握手失败和Python默认UA403已恢复；测试使用系统现有代理。因此不能作为无代理大陆网络可达证据。
+- Prime账号按稳定用户ID配置为管理员，不使用邮箱或昵称作权限判断。
+- 仍未验证：真实手机、微信、无代理大陆网络、长期CPU/内存压力、极端大问卷远程分片、生产管理员浏览器全部操作。
