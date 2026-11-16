@@ -1,3 +1,4 @@
+import {Buffer} from 'node:buffer';
 import {scrypt,randomBytes,timingSafeEqual,createHash} from 'node:crypto';
 export const token=()=>randomBytes(32).toString('hex');
 export const digest=(s:string)=>createHash('sha256').update(s).digest('hex');

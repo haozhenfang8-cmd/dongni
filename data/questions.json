@@ -9,12 +9,13 @@
       "日语流行",
       "韩语流行"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "音乐",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-002",
@@ -26,12 +27,13 @@
       "爵士",
       "古典"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "音乐",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-003",
@@ -43,12 +45,13 @@
       "孙燕姿",
       "王菲"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "音乐",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-004",
@@ -60,12 +63,13 @@
       "Bruno Mars",
       "Céline Dion"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "音乐",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-005",
@@ -77,12 +81,13 @@
       "Coldplay",
       "五月天"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "音乐",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-006",
@@ -94,12 +99,13 @@
       "日本电影",
       "美国电影"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电影",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-007",
@@ -111,12 +117,13 @@
       "爱情",
       "喜剧"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电影",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-008",
@@ -128,12 +135,13 @@
       "星际穿越",
       "黑客帝国"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "电影",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-009",
@@ -145,12 +153,13 @@
       "是枝裕和",
       "王家卫"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "电影",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-010",
@@ -162,12 +171,13 @@
       "电脑",
       "平板"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电影",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-011",
@@ -179,12 +189,13 @@
       "韩剧",
       "英美剧"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电视剧及综艺",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-012",
@@ -196,12 +207,13 @@
       "古装",
       "家庭"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电视剧及综艺",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-013",
@@ -213,12 +225,13 @@
       "甄嬛传",
       "武林外传"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电视剧及综艺",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-014",
@@ -230,12 +243,13 @@
       "旅行真人秀",
       "推理综艺"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电视剧及综艺",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-015",
@@ -247,12 +261,13 @@
       "随缘看",
       "反复重温"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "电视剧及综艺",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-016",
@@ -264,12 +279,13 @@
       "主机",
       "掌机"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "游戏",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-017",
@@ -281,12 +297,13 @@
       "动作",
       "模拟经营"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "游戏",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-018",
@@ -298,12 +315,13 @@
       "文明VI",
       "艾尔登法环"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "游戏",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-019",
@@ -315,12 +333,13 @@
       "宝可梦",
       "超级马力欧"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "游戏",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-020",
@@ -332,12 +351,13 @@
       "收集养成",
       "研究剧情"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "游戏",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-021",
@@ -349,12 +369,13 @@
       "有声书",
       "网络连载"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "文学与阅读",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-022",
@@ -366,12 +387,13 @@
       "奇幻",
       "现实文学"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "文学与阅读",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-023",
@@ -383,12 +405,13 @@
       "银河系漫游指南",
       "基地"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "文学与阅读",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-024",
@@ -400,12 +423,13 @@
       "汪曾祺",
       "史铁生"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "文学与阅读",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-025",
@@ -417,12 +441,13 @@
       "咖啡馆",
       "通勤途中"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "文学与阅读",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-026",
@@ -434,12 +459,13 @@
       "欧美动画",
       "独立动画"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动漫与二次元",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-027",
@@ -451,12 +477,13 @@
       "科幻悬疑",
       "奇幻成长"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动漫与二次元",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-028",
@@ -468,12 +495,13 @@
       "机器人总动员",
       "哪吒之魔童降世"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
       "动漫与二次元",
-      "偏好"
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-029",
@@ -485,12 +513,13 @@
       "动画电影",
       "轻小说"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动漫与二次元",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-030",
@@ -502,12 +531,13 @@
       "配乐",
       "角色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动漫与二次元",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-031",
@@ -519,12 +549,13 @@
       "版画",
       "水墨"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美术与艺术",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-032",
@@ -536,12 +567,13 @@
       "抽象艺术",
       "超现实主义"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美术与艺术",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-033",
@@ -553,12 +585,13 @@
       "马蒂斯",
       "达利"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美术与艺术",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-034",
@@ -570,12 +603,13 @@
       "街头",
       "静物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美术与艺术",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-035",
@@ -587,12 +621,13 @@
       "工业建筑",
       "自然建筑"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美术与艺术",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-036",
@@ -604,12 +639,13 @@
       "湘菜",
       "淮扬菜"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美食与饮品",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-037",
@@ -621,12 +657,13 @@
       "辣",
       "鲜"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美食与饮品",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-038",
@@ -638,12 +675,13 @@
       "面食",
       "寿司"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美食与饮品",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-039",
@@ -655,12 +693,13 @@
       "果汁",
       "气泡水"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美食与饮品",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-040",
@@ -672,12 +711,13 @@
       "煎",
       "烤"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "美食与饮品",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-041",
@@ -689,12 +729,13 @@
       "羽毛球",
       "乒乓球"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "体育与运动",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-042",
@@ -706,12 +747,13 @@
       "骑行",
       "瑜伽"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "体育与运动",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-043",
@@ -723,12 +765,13 @@
       "精彩集锦",
       "文字赛况"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "体育与运动",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-044",
@@ -740,12 +783,13 @@
       "小组运动",
       "团队比赛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "体育与运动",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-045",
@@ -757,12 +801,13 @@
       "傍晚运动",
       "夜间运动"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "体育与运动",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-046",
@@ -774,12 +819,13 @@
       "自驾游",
       "城市漫步"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "旅游与地理",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-047",
@@ -791,12 +837,13 @@
       "草原",
       "沙漠"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "旅游与地理",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-048",
@@ -808,12 +855,13 @@
       "街区",
       "市集"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "旅游与地理",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-049",
@@ -825,12 +873,13 @@
       "西安",
       "厦门"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "旅游与地理",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-050",
@@ -842,12 +891,13 @@
       "新西兰",
       "冰岛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "旅游与地理",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-051",
@@ -859,12 +909,13 @@
       "电脑",
       "游戏设备"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "科技与数码",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-052",
@@ -876,12 +927,13 @@
       "机器人",
       "生物技术"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "科技与数码",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-053",
@@ -893,12 +945,13 @@
       "便携",
       "外观"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "科技与数码",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-054",
@@ -910,12 +963,13 @@
       "电子阅读器",
       "智能手表"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "科技与数码",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-055",
@@ -927,12 +981,13 @@
       "专业评测",
       "到店体验"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "科技与数码",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-056",
@@ -944,12 +999,13 @@
       "宋元",
       "明清"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "历史与文化",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-057",
@@ -961,12 +1017,13 @@
       "古罗马",
       "两河文明"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "历史与文化",
-      "偏好"
+      "地区与文化"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "地区与文化"
   },
   {
     "id": "seed-058",
@@ -978,12 +1035,13 @@
       "司马迁",
       "徐霞客"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "历史与文化",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-059",
@@ -995,12 +1053,13 @@
       "语言",
       "民俗"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "历史与文化",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-060",
@@ -1012,12 +1071,13 @@
       "博物馆",
       "实地旅行"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "历史与文化",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-061",
@@ -1029,12 +1089,13 @@
       "复古",
       "简约"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "穿搭与审美",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-062",
@@ -1046,12 +1107,13 @@
       "黑色",
       "米白色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "穿搭与审美",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-063",
@@ -1063,12 +1125,13 @@
       "羊毛",
       "牛仔"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "穿搭与审美",
-      "偏好"
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-064",
@@ -1080,12 +1143,13 @@
       "层次",
       "利落"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "穿搭与审美",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-065",
@@ -1097,12 +1161,13 @@
       "剪裁",
       "细节"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "穿搭与审美",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-066",
@@ -1114,12 +1179,13 @@
       "鸟",
       "鱼"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动物与自然",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-067",
@@ -1131,12 +1197,13 @@
       "海岸",
       "湿地"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动物与自然",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-068",
@@ -1148,12 +1215,13 @@
       "植物观察",
       "徒步"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动物与自然",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-069",
@@ -1165,12 +1233,13 @@
       "秋季山林",
       "冬季雪地"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动物与自然",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-070",
@@ -1182,12 +1251,13 @@
       "狐狸",
       "企鹅"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "动物与自然",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-071",
@@ -1199,12 +1269,13 @@
       "图文",
       "播客"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "网络文化",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-072",
@@ -1216,12 +1287,13 @@
       "搞笑娱乐",
       "影视解析"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "网络文化",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-073",
@@ -1233,12 +1305,13 @@
       "只看不发",
       "小范围交流"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "网络文化",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-074",
@@ -1250,12 +1323,13 @@
       "语音",
       "简短文字"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "网络文化",
-      "偏好"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-075",
@@ -1267,12 +1341,13 @@
       "旅行",
       "游戏"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "网络文化",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-076",
@@ -1284,12 +1359,13 @@
       "手工",
       "模型"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "其他兴趣",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-077",
@@ -1301,12 +1377,13 @@
       "聚会桌游",
       "推理桌游"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "其他兴趣",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-078",
@@ -1318,12 +1395,13 @@
       "唱片",
       "明信片"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "其他兴趣",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-079",
@@ -1335,12 +1413,13 @@
       "木工",
       "纸艺"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "其他兴趣",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-080",
@@ -1352,12 +1431,13 @@
       "飞机",
       "自行车"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
       "其他兴趣",
-      "偏好"
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-081",
@@ -1369,12 +1449,13 @@
       "亲近自然",
       "随心出发"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "情境与想象"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "情境与想象"
   },
   {
     "id": "seed-082",
@@ -1386,12 +1467,13 @@
       "查看消息",
       "再睡一会"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-083",
@@ -1403,12 +1485,13 @@
       "门锁",
       "天气"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-084",
@@ -1420,12 +1503,13 @@
       "减少使用",
       "等回家再充"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-085",
@@ -1437,12 +1521,13 @@
       "空闲再听",
       "戴上耳机听"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-086",
@@ -1454,12 +1539,13 @@
       "找熟悉的菜",
       "尝试特别的菜"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-087",
@@ -1471,12 +1557,13 @@
       "安排家务",
       "换个活动"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "情境与想象"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "情境与想象"
   },
   {
     "id": "seed-088",
@@ -1488,12 +1575,13 @@
       "拍照分享",
       "下次专程来"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-089",
@@ -1505,12 +1593,13 @@
       "找地方坐",
       "看随身的书"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-090",
@@ -1522,12 +1611,13 @@
       "临走再收拾",
       "带得越少越好"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-091",
@@ -1539,12 +1629,13 @@
       "接梗活跃",
       "观察大家"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-092",
@@ -1556,12 +1647,13 @@
       "留些空间",
       "做点好玩的事"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-093",
@@ -1573,12 +1665,13 @@
       "问朋友",
       "暂时搁置"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-094",
@@ -1590,12 +1683,13 @@
       "分享朋友",
       "找同类歌曲"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-095",
@@ -1607,12 +1701,13 @@
       "惊喜感",
       "外观设计"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-096",
@@ -1624,12 +1719,13 @@
       "自然白噪声",
       "日常人声"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-097",
@@ -1641,12 +1737,13 @@
       "床铺",
       "地板"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-098",
@@ -1658,12 +1755,13 @@
       "准时到",
       "看路况"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-099",
@@ -1675,12 +1773,13 @@
       "做事时聊",
       "慢慢熟悉"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-100",
@@ -1692,12 +1791,13 @@
       "陪家人朋友",
       "做想做的事"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-101",
@@ -1709,12 +1809,13 @@
       "共同话题",
       "口碑评价"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-102",
@@ -1726,12 +1827,13 @@
       "收藏实物",
       "记在心里"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-103",
@@ -1743,12 +1845,13 @@
       "预约再来",
       "看值不值得"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-104",
@@ -1760,12 +1863,13 @@
       "安静独处",
       "短途旅行"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-105",
@@ -1777,12 +1881,13 @@
       "寻找折中",
       "换个话题"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-106",
@@ -1794,12 +1899,13 @@
       "拍照分享",
       "先妥善收好"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-107",
@@ -1811,12 +1917,13 @@
       "游戏影音区",
       "阳台花园"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-108",
@@ -1828,12 +1935,13 @@
       "稍作缓冲",
       "寻找新机会"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-109",
@@ -1845,12 +1953,13 @@
       "自由飞翔",
       "随时入睡"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "情境与想象"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "情境与想象"
   },
   {
     "id": "seed-110",
@@ -1862,12 +1971,13 @@
       "偶尔长聊",
       "分享有趣内容"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-111",
@@ -1879,12 +1989,13 @@
       "看中就买",
       "向懂行朋友请教"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-112",
@@ -1896,12 +2007,13 @@
       "搜索了解",
       "聊共同兴趣"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-113",
@@ -1913,12 +2025,13 @@
       "临时决定",
       "跟随朋友安排"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-114",
@@ -1930,12 +2043,13 @@
       "后排",
       "随便哪里"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-115",
@@ -1947,12 +2061,13 @@
       "阴天凉爽",
       "飘雪"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-116",
@@ -1964,12 +2079,13 @@
       "轮流搭配",
       "随手夹"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-117",
@@ -1981,12 +2097,13 @@
       "震动提醒",
       "自然醒"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-118",
@@ -1998,12 +2115,13 @@
       "找地标",
       "走到大路"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-119",
@@ -2015,12 +2133,13 @@
       "点外卖",
       "一起出去吃"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-120",
@@ -2032,12 +2151,13 @@
       "想好再回复",
       "语音直接聊"
     ],
-    "level": "情境",
+    "level": "总体",
     "tags": [
       "日常生活",
-      "情境"
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-121",
@@ -2049,11 +2169,13 @@
       "电台节目",
       "现场演出"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-122",
@@ -2065,11 +2187,13 @@
       "乐器",
       "歌词"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-123",
@@ -2081,11 +2205,13 @@
       "车载音响",
       "手机外放"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-124",
@@ -2097,11 +2223,13 @@
       "学习工作",
       "睡前"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-125",
@@ -2113,11 +2241,13 @@
       "按歌手",
       "全部放一起"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-126",
@@ -2129,11 +2259,13 @@
       "体育馆演唱会",
       "剧院演出"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-127",
@@ -2145,11 +2277,13 @@
       "大提琴",
       "长笛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-128",
@@ -2161,11 +2295,13 @@
       "随机播放",
       "看评论挑选"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-129",
@@ -2177,11 +2313,13 @@
       "电子节拍",
       "吉他与鼓"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-130",
@@ -2193,11 +2331,13 @@
       "汉密尔顿",
       "猫"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-131",
@@ -2209,11 +2349,13 @@
       "乐队主唱",
       "合唱"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-132",
@@ -2225,11 +2367,13 @@
       "较响沉浸",
       "随环境调整"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-133",
@@ -2241,11 +2385,13 @@
       "遇见",
       "十年"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "音乐"
+      "音乐",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-134",
@@ -2257,11 +2403,13 @@
       "架子鼓",
       "尤克里里"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-135",
@@ -2273,11 +2421,13 @@
       "酷爵士",
       "融合爵士"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "音乐"
+      "音乐",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-136",
@@ -2289,11 +2439,13 @@
       "意外反转",
       "留有遗憾"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-137",
@@ -2305,11 +2457,13 @@
       "读简介",
       "尽量不看信息"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-138",
@@ -2321,11 +2475,13 @@
       "知道结局也能看",
       "主动了解"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-139",
@@ -2337,11 +2493,13 @@
       "故事结构",
       "思想主题"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-140",
@@ -2353,11 +2511,13 @@
       "露天电影",
       "小型艺术影院"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-141",
@@ -2369,11 +2529,13 @@
       "陪朋友看",
       "欣赏画面配乐"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-142",
@@ -2385,11 +2547,13 @@
       "新海诚",
       "皮克斯团队"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "电影"
+      "电影",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-143",
@@ -2401,11 +2565,13 @@
       "布达佩斯大饭店",
       "土拨鼠之日"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "电影"
+      "电影",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-144",
@@ -2417,11 +2583,13 @@
       "致命魔术",
       "控方证人"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "电影"
+      "电影",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-145",
@@ -2433,11 +2601,13 @@
       "中文配音",
       "原声无字幕"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-146",
@@ -2449,11 +2619,13 @@
       "时间旅行",
       "未来社会"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-147",
@@ -2465,11 +2637,13 @@
       "写点感想",
       "独自回味"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-148",
@@ -2481,11 +2655,13 @@
       "周迅",
       "张国荣"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "电影"
+      "电影",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-149",
@@ -2497,11 +2673,13 @@
       "短片单元",
       "露天放映"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-150",
@@ -2513,11 +2691,13 @@
       "暖色柔和",
       "黑白影像"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "电影"
+      "电影",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-151",
@@ -2529,11 +2709,13 @@
       "看教程",
       "捏角色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-152",
@@ -2545,11 +2727,13 @@
       "高难度",
       "可自由调整"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-153",
@@ -2561,11 +2745,13 @@
       "收集物品",
       "挑战强敌"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-154",
@@ -2577,11 +2763,13 @@
       "更重视玩法",
       "会查背景设定"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-155",
@@ -2593,11 +2781,13 @@
       "沙盒建造",
       "休闲派对"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-156",
@@ -2609,11 +2799,13 @@
       "模拟人生",
       "城市天际线"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "游戏"
+      "游戏",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-157",
@@ -2625,11 +2817,13 @@
       "十字军之王",
       "全面战争"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "游戏"
+      "游戏",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-158",
@@ -2641,11 +2835,13 @@
       "辅助治疗",
       "防御保护"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-159",
@@ -2657,11 +2853,13 @@
       "世界氛围",
       "社交合作"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-160",
@@ -2673,11 +2871,13 @@
       "问朋友",
       "先玩别的"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-161",
@@ -2689,11 +2889,13 @@
       "随机名字",
       "搞笑名字"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-162",
@@ -2705,11 +2907,13 @@
       "雪山",
       "海岛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-163",
@@ -2721,11 +2925,13 @@
       "手绘",
       "卡通渲染"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-164",
@@ -2737,11 +2943,13 @@
       "安静钢琴",
       "民谣器乐"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-165",
@@ -2753,11 +2961,13 @@
       "换一款游戏",
       "推荐给朋友"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "游戏"
+      "游戏",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-166",
@@ -2769,11 +2979,13 @@
       "朋友推荐",
       "装帧吸引"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-167",
@@ -2785,11 +2997,13 @@
       "摘抄",
       "不做标记"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-168",
@@ -2801,11 +3015,13 @@
       "收藏不同版本",
       "继续读作者其他作品"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-169",
@@ -2817,11 +3033,13 @@
       "全知视角",
       "书信日记体"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-170",
@@ -2833,11 +3051,13 @@
       "地海传奇",
       "纳尼亚传奇"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-171",
@@ -2849,11 +3069,13 @@
       "东野圭吾",
       "雷蒙德钱德勒"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-172",
@@ -2865,11 +3087,13 @@
       "自然科普",
       "社会观察"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-173",
@@ -2881,11 +3105,13 @@
       "先看评价",
       "换一本书"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-174",
@@ -2897,11 +3123,13 @@
       "同时读几本",
       "随心翻阅"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-175",
@@ -2913,11 +3141,13 @@
       "架空世界",
       "遥远未来"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "文学与阅读"
+      "文学与阅读",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-176",
@@ -2929,11 +3159,13 @@
       "多季长篇",
       "电影长度"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-177",
@@ -2945,11 +3177,13 @@
       "对手成长",
       "日常朋友"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-178",
@@ -2961,11 +3195,13 @@
       "看完成度",
       "喜欢比较版本"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-179",
@@ -2977,11 +3213,13 @@
       "星际牛仔",
       "排球少年"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-180",
@@ -2993,11 +3231,13 @@
       "大理寺日志",
       "中国奇谭"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-181",
@@ -3009,11 +3249,13 @@
       "连载追更",
       "完结后补"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-182",
@@ -3025,11 +3267,13 @@
       "模型",
       "原声带"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-183",
@@ -3041,11 +3285,13 @@
       "朋友安利",
       "制作团队"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-184",
@@ -3057,11 +3303,13 @@
       "路飞",
       "罗小黑"
     ],
-    "level": "偏好",
+    "level": "具体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "具体作品与人物"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "具体作品与人物"
   },
   {
     "id": "seed-185",
@@ -3073,11 +3321,13 @@
       "音乐会",
       "取景地旅行"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动漫与二次元"
+      "动漫与二次元",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-186",
@@ -3089,11 +3339,13 @@
       "先读策展文字",
       "听讲解"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-187",
@@ -3105,11 +3357,13 @@
       "密集",
       "自然随意"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-188",
@@ -3121,11 +3375,13 @@
       "傍晚逆光",
       "夜间灯光"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-189",
@@ -3137,11 +3393,13 @@
       "黑白处理",
       "明显风格化"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-190",
@@ -3153,11 +3411,13 @@
       "版画",
       "影像艺术"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-191",
@@ -3169,11 +3429,13 @@
       "几何",
       "有机自然"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-192",
@@ -3185,11 +3447,13 @@
       "人物",
       "文字设计"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-193",
@@ -3201,11 +3465,13 @@
       "传统民居",
       "工业遗址"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-194",
@@ -3217,11 +3483,13 @@
       "风景",
       "幻想场景"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-195",
@@ -3233,11 +3501,13 @@
       "当地特色",
       "特别文字"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美术与艺术"
+      "美术与艺术",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-196",
@@ -3249,11 +3519,13 @@
       "麻辣",
       "菌菇"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-197",
@@ -3265,11 +3537,13 @@
       "粥和小菜",
       "面条"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-198",
@@ -3281,11 +3555,13 @@
       "半糖",
       "全糖"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-199",
@@ -3297,11 +3573,13 @@
       "手冲",
       "冷萃"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-200",
@@ -3313,11 +3591,13 @@
       "炒面",
       "凉面"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-201",
@@ -3329,11 +3609,13 @@
       "清爽",
       "软糯"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-202",
@@ -3345,11 +3627,13 @@
       "西瓜",
       "葡萄"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-203",
@@ -3361,11 +3645,13 @@
       "小吃串店",
       "野餐"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-204",
@@ -3377,11 +3663,13 @@
       "做法简单",
       "营养搭配"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-205",
@@ -3393,11 +3681,13 @@
       "日式料理",
       "意大利料理"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-206",
@@ -3409,11 +3699,13 @@
       "小馄饨",
       "炸物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-207",
@@ -3425,11 +3717,13 @@
       "乌龙茶",
       "花茶"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-208",
@@ -3441,11 +3735,13 @@
       "研究做法",
       "下次再点"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-209",
@@ -3457,11 +3753,13 @@
       "坚果",
       "果干"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-210",
@@ -3473,11 +3771,13 @@
       "抹茶",
       "水果"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "美食与饮品"
+      "美食与饮品",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-211",
@@ -3489,11 +3789,13 @@
       "河岸",
       "操场"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-212",
@@ -3505,11 +3807,13 @@
       "环境声音",
       "朋友聊天"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-213",
@@ -3521,11 +3825,13 @@
       "突破目标",
       "结识朋友"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-214",
@@ -3537,11 +3843,13 @@
       "比赛气氛",
       "关键瞬间"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-215",
@@ -3553,11 +3861,13 @@
       "桨板",
       "冲浪"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-216",
@@ -3569,11 +3879,13 @@
       "冰壶",
       "雪地徒步"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-217",
@@ -3585,11 +3897,13 @@
       "看天气",
       "随心活动"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-218",
@@ -3601,11 +3915,13 @@
       "视频学习",
       "自己体验"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-219",
@@ -3617,11 +3933,13 @@
       "网球比赛",
       "田径赛事"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-220",
@@ -3633,11 +3951,13 @@
       "喝水坐一会",
       "吃点东西"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "体育与运动"
+      "体育与运动",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-221",
@@ -3649,11 +3969,13 @@
       "安静舒适",
       "当地特色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-222",
@@ -3665,11 +3987,13 @@
       "知名餐厅",
       "随处发现的小店"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-223",
@@ -3681,11 +4005,13 @@
       "食物",
       "同行朋友"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-224",
@@ -3697,11 +4023,13 @@
       "到处闲逛",
       "固定住一地"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-225",
@@ -3713,11 +4041,13 @@
       "手工艺品",
       "小型摆件"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-226",
@@ -3729,11 +4059,13 @@
       "雨中漫步",
       "酒店休息"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-227",
@@ -3745,11 +4077,13 @@
       "热气球",
       "房车"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-228",
@@ -3761,11 +4095,13 @@
       "冰川",
       "溶洞"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-229",
@@ -3777,11 +4113,13 @@
       "小群朋友",
       "家人"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-230",
@@ -3793,11 +4131,13 @@
       "景点",
       "住宿"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "旅游与地理"
+      "旅游与地理",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-231",
@@ -3809,11 +4149,13 @@
       "装饰丰富",
       "顺手就好"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-232",
@@ -3825,11 +4167,13 @@
       "大屏幕",
       "小巧手感"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-233",
@@ -3841,11 +4185,13 @@
       "降噪",
       "续航"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-234",
@@ -3857,11 +4203,13 @@
       "移动硬盘",
       "多处保存"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-235",
@@ -3873,11 +4221,13 @@
       "拍照",
       "游戏"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-236",
@@ -3889,11 +4239,13 @@
       "线性顺滑",
       "笔记本薄膜"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-237",
@@ -3905,11 +4257,13 @@
       "航天模型",
       "交互装置"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-238",
@@ -3921,11 +4275,13 @@
       "有需要才更",
       "自动更新"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-239",
@@ -3937,11 +4293,13 @@
       "修小电器",
       "搭智能家居"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-240",
@@ -3953,11 +4311,13 @@
       "操控",
       "镜头选择"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "科技与数码"
+      "科技与数码",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-241",
@@ -3969,11 +4329,13 @@
       "书画",
       "日常器物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-242",
@@ -3985,11 +4347,13 @@
       "技术发明",
       "城市变迁"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-243",
@@ -4001,11 +4365,13 @@
       "织染",
       "榫卯"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-244",
@@ -4017,11 +4383,13 @@
       "饮食",
       "节庆"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-245",
@@ -4033,11 +4401,13 @@
       "汴京",
       "临安"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-246",
@@ -4049,11 +4419,13 @@
       "影像细节",
       "人物故事"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-247",
@@ -4065,11 +4437,13 @@
       "地形图",
       "航海图"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-248",
@@ -4081,11 +4455,13 @@
       "篆刻",
       "扎染"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-249",
@@ -4097,11 +4473,13 @@
       "古道",
       "古村落"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-250",
@@ -4113,11 +4491,13 @@
       "建筑",
       "音乐"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "历史与文化"
+      "历史与文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-251",
@@ -4129,11 +4509,13 @@
       "皮鞋",
       "凉鞋"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-252",
@@ -4145,11 +4527,13 @@
       "大地色",
       "明亮彩色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-253",
@@ -4161,11 +4545,13 @@
       "外形",
       "分区"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-254",
@@ -4177,11 +4563,13 @@
       "耳饰",
       "帽子"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-255",
@@ -4193,11 +4581,13 @@
       "按场合",
       "尝试新组合"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-256",
@@ -4209,11 +4599,13 @@
       "格纹",
       "插画"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-257",
@@ -4225,11 +4617,13 @@
       "活动舒适度",
       "颜色是否适合"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-258",
@@ -4241,11 +4635,13 @@
       "柔和粉彩",
       "浓郁撞色"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-259",
@@ -4257,11 +4653,13 @@
       "花香",
       "茶香"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-260",
@@ -4273,11 +4671,13 @@
       "换配色",
       "换鞋型"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "穿搭与审美"
+      "穿搭与审美",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-261",
@@ -4289,11 +4689,13 @@
       "轻声招呼",
       "有条件再靠近"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-262",
@@ -4305,11 +4707,13 @@
       "香草",
       "开花植物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-263",
@@ -4321,11 +4725,13 @@
       "看日出",
       "围坐聊天"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-264",
@@ -4337,11 +4743,13 @@
       "云朵",
       "路边花草"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-265",
@@ -4353,11 +4761,13 @@
       "云海",
       "潮汐"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-266",
@@ -4369,11 +4779,13 @@
       "绣球",
       "郁金香"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-267",
@@ -4385,11 +4797,13 @@
       "海洋动物",
       "灵长类"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-268",
@@ -4401,11 +4815,13 @@
       "森林漫步",
       "湿地观察"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-269",
@@ -4417,11 +4833,13 @@
       "风吹树叶",
       "鸟鸣"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-270",
@@ -4433,11 +4851,13 @@
       "四季颜色",
       "云的形状"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "动物与自然"
+      "动物与自然",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-271",
@@ -4449,11 +4869,13 @@
       "点赞",
       "自己笑一会"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-272",
@@ -4465,11 +4887,13 @@
       "二十分钟左右",
       "一小时以上"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-273",
@@ -4481,11 +4905,13 @@
       "审美",
       "生活态度"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-274",
@@ -4497,11 +4923,13 @@
       "语音闲聊",
       "读书讨论"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-275",
@@ -4513,11 +4941,13 @@
       "只存最喜欢的",
       "想起再整理"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-276",
@@ -4529,11 +4959,13 @@
       "多人圆桌",
       "采访"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-277",
@@ -4545,11 +4977,13 @@
       "作品安利",
       "有趣见闻"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-278",
@@ -4561,11 +4995,13 @@
       "看最新几条",
       "等总结"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-279",
@@ -4577,11 +5013,13 @@
       "角色",
       "风景"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-280",
@@ -4593,11 +5031,13 @@
       "生活观察",
       "无厘头"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "网络文化"
+      "网络文化",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-281",
@@ -4609,11 +5049,13 @@
       "认真推理",
       "活跃气氛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-282",
@@ -4625,11 +5067,13 @@
       "完整系列",
       "稀有程度"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-283",
@@ -4641,11 +5085,13 @@
       "先规划",
       "和朋友一起"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-284",
@@ -4657,11 +5103,13 @@
       "调香",
       "皮具制作"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-285",
@@ -4673,11 +5121,13 @@
       "建筑",
       "插画"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-286",
@@ -4689,11 +5139,13 @@
       "角色",
       "机械"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "类型与风格"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "类型与风格"
   },
   {
     "id": "seed-287",
@@ -4705,11 +5157,13 @@
       "旅行地图",
       "声音日记"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-288",
@@ -4721,11 +5175,13 @@
       "书签",
       "钥匙扣"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-289",
@@ -4737,11 +5193,13 @@
       "乐器",
       "语言"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-290",
@@ -4753,11 +5211,13 @@
       "阅读角",
       "音乐角"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "其他兴趣"
+      "其他兴趣",
+      "个人偏好"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "个人偏好"
   },
   {
     "id": "seed-291",
@@ -4769,11 +5229,13 @@
       "安排见面",
       "送个小礼物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "朋友相处"
+      "朋友相处",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-292",
@@ -4785,11 +5247,13 @@
       "拍照",
       "活跃气氛"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "朋友相处"
+      "朋友相处",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-293",
@@ -4801,11 +5265,13 @@
       "户外活动",
       "体验新事物"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "朋友相处"
+      "朋友相处",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-294",
@@ -4817,11 +5283,13 @@
       "实际帮忙",
       "介绍资源"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "朋友相处"
+      "朋友相处",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-295",
@@ -4833,11 +5301,13 @@
       "特别的习惯",
       "重要的日期"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "朋友相处"
+      "朋友相处",
+      "日常与相处"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "日常与相处"
   },
   {
     "id": "seed-296",
@@ -4849,11 +5319,13 @@
       "运动一下",
       "找朋友聊天"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "情绪与情境"
+      "情绪与情境",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-297",
@@ -4865,11 +5337,13 @@
       "请客",
       "安排旅行"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "情绪与情境"
+      "情绪与情境",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-298",
@@ -4881,11 +5355,13 @@
       "快速练习",
       "边说边组织"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "情绪与情境"
+      "情绪与情境",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
   },
   {
     "id": "seed-299",
@@ -4897,11 +5373,13 @@
       "出门散步",
       "做手工"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "情绪与情境"
+      "情绪与情境",
+      "情境与想象"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "情境与想象"
   },
   {
     "id": "seed-300",
@@ -4913,10 +5391,372 @@
       "买个纪念物",
       "与朋友分享"
     ],
-    "level": "偏好",
+    "level": "总体",
     "tags": [
-      "情绪与情境"
+      "情绪与情境",
+      "使用与体验"
     ],
-    "system": true
+    "system": true,
+    "subcategory": "使用与体验"
+  },
+  {
+    "id": "seed-301",
+    "title": "以下专辑中我更愿意完整重听哪张？",
+    "category": "音乐",
+    "options": [
+      "范特西",
+      "黑色柳丁",
+      "寓言",
+      "叶惠美"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "音乐",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-302",
+    "title": "以下英文歌曲中我更喜欢哪首？",
+    "category": "音乐",
+    "options": [
+      "Billie Jean",
+      "Bohemian Rhapsody",
+      "My Heart Will Go On",
+      "Viva La Vida"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "音乐",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-303",
+    "title": "以下文学角色中我更想和谁聊聊天？",
+    "category": "文学与阅读",
+    "options": [
+      "福尔摩斯",
+      "小王子",
+      "孙悟空",
+      "伊丽莎白班纳特"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "文学与阅读",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-304",
+    "title": "以下篮球队中我更愿意关注哪支？",
+    "category": "体育与运动",
+    "options": [
+      "湖人",
+      "勇士",
+      "凯尔特人",
+      "马刺"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "体育与运动",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-305",
+    "title": "以下足球俱乐部中我更感兴趣的是哪支？",
+    "category": "体育与运动",
+    "options": [
+      "皇家马德里",
+      "巴塞罗那",
+      "利物浦",
+      "拜仁慕尼黑"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "体育与运动",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-306",
+    "title": "以下网球选手中我更欣赏谁？",
+    "category": "体育与运动",
+    "options": [
+      "费德勒",
+      "纳达尔",
+      "德约科维奇",
+      "李娜"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "体育与运动",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-307",
+    "title": "以下运动品牌中我更常关注哪个？",
+    "category": "穿搭与审美",
+    "options": [
+      "耐克",
+      "阿迪达斯",
+      "李宁",
+      "安踏"
+    ],
+    "system": true,
+    "level": "具体",
+    "subcategory": "具体作品与人物",
+    "tags": [
+      "穿搭与审美",
+      "具体作品与人物"
+    ]
+  },
+  {
+    "id": "seed-308",
+    "title": "如果可以和未来的自己通信，我最想问什么？",
+    "category": "情绪与情境",
+    "options": [
+      "现在的烦恼后来怎样了",
+      "有没有坚持热爱",
+      "身边还有哪些朋友",
+      "去了哪些地方"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "情境与想象",
+    "tags": [
+      "情绪与情境",
+      "情境与想象"
+    ]
+  },
+  {
+    "id": "seed-309",
+    "title": "我最习惯用什么方式记待办事项？",
+    "category": "日常生活",
+    "options": [
+      "手机清单",
+      "纸质笔记",
+      "日历提醒",
+      "记在脑中"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "日常生活",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-310",
+    "title": "我最喜欢朋友用什么方式祝我生日快乐？",
+    "category": "朋友相处",
+    "options": [
+      "一段认真写的话",
+      "当面庆祝",
+      "语音祝福",
+      "一起做喜欢的事"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "朋友相处",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-311",
+    "title": "睡前我的最后一个小习惯是什么？",
+    "category": "日常生活",
+    "options": [
+      "读几页书",
+      "听点声音",
+      "看看手机",
+      "整理明天的东西"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "日常生活",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-312",
+    "title": "一个计划做成了，我通常如何奖励自己？",
+    "category": "情绪与情境",
+    "options": [
+      "吃一顿好饭",
+      "买想要的小物",
+      "休息一天",
+      "向朋友分享"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "情绪与情境",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-313",
+    "title": "朋友安静地坐在旁边时，我更可能怎样？",
+    "category": "朋友相处",
+    "options": [
+      "一起享受安静",
+      "找个轻松话题",
+      "递点吃喝",
+      "问问想做什么"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "朋友相处",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-314",
+    "title": "我处理旧物更接近哪种方式？",
+    "category": "日常生活",
+    "options": [
+      "定期整理",
+      "有纪念意义就留着",
+      "送给需要的人",
+      "等换季再整理"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "日常生活",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-315",
+    "title": "如果可以在一个虚构世界度假，我会选哪种？",
+    "category": "情绪与情境",
+    "options": [
+      "有魔法的学院",
+      "未来太空城",
+      "宁静田园小镇",
+      "海上冒险世界"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "情境与想象",
+    "tags": [
+      "情绪与情境",
+      "情境与想象"
+    ]
+  },
+  {
+    "id": "seed-316",
+    "title": "我最容易和朋友聊到忘记时间的话题是什么？",
+    "category": "朋友相处",
+    "options": [
+      "生活近况",
+      "喜欢的作品",
+      "旅行见闻",
+      "各种脑洞"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "日常与相处",
+    "tags": [
+      "朋友相处",
+      "日常与相处"
+    ]
+  },
+  {
+    "id": "seed-317",
+    "title": "我更喜欢哪种室内照明？",
+    "category": "日常生活",
+    "options": [
+      "明亮白光",
+      "温暖黄光",
+      "自然采光",
+      "局部小灯"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "日常与相处",
+    "tags": [
+      "日常生活",
+      "日常与相处"
+    ]
+  },
+  {
+    "id": "seed-318",
+    "title": "偶然碰到多年未见的朋友，我会怎样？",
+    "category": "情绪与情境",
+    "options": [
+      "主动打招呼",
+      "先确认是不是本人",
+      "约下次见面",
+      "当场聊一会"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "情绪与情境",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-319",
+    "title": "我和朋友约活动，通常怎样决定地点？",
+    "category": "朋友相处",
+    "options": [
+      "我先提几个方案",
+      "听大家建议",
+      "选交通方便的",
+      "尝试一个新地方"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "朋友相处",
+      "使用与体验"
+    ]
+  },
+  {
+    "id": "seed-320",
+    "title": "我最愿意用哪种方式度过通勤时间？",
+    "category": "日常生活",
+    "options": [
+      "听歌",
+      "阅读",
+      "看窗外",
+      "听播客"
+    ],
+    "system": true,
+    "level": "总体",
+    "subcategory": "使用与体验",
+    "tags": [
+      "日常生活",
+      "使用与体验"
+    ]
   }
 ]

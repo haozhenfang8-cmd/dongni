@@ -8,7 +8,7 @@ c.execute('insert into versions values (?,?,?,?,?,?,?)',('old-v','old-doc','gith
 c.execute('insert into attempts values (?,?,?,?,?,?,?,?)',('old-a','old-v','老朋友','[1]',1,1,1,'old-client'))
 c.commit()
 backup='\n'.join(c.iterdump())
-for f in ['0003_accounts.sql','0004_relational.sql','0005_bank_expansion.sql']:c.executescript((p/'migrations'/f).read_text(encoding='utf-8-sig'))
+for f in [f.name for f in sorted((p/'migrations').glob('*.sql')) if f.name[:4]>='0003']:c.executescript((p/'migrations'/f).read_text(encoding='utf-8-sig'))
 assert c.execute('select owner,questions from documents').fetchone()==('github-42',q)
 assert c.execute('select title from questionnaire_questions where scope="version"').fetchone()[0]=='旧题目'
 assert c.execute('select label,is_correct from questionnaire_options where scope="version" order by position').fetchall()==[('甲',0),('乙',1)]

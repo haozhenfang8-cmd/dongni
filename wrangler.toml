@@ -15,3 +15,6 @@ database_id = "REPLACE_WITH_YOUR_D1_ID"
 migrations_dir = "migrations"
 [vars]
 ADMIN_USER_IDS = ""
+
+[triggers]
+crons = ["17 3 * * *"]
