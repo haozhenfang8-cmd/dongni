@@ -1,5 +1,5 @@
-import urllib.request,urllib.error,http.cookiejar,json,secrets,time,uuid
-base='https://know-me.know-me.workers.dev';jar=http.cookiejar.CookieJar();opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar));username='smoke_'+str(int(time.time()));password=secrets.token_urlsafe(24)
+import urllib.request,urllib.error,http.cookiejar,json,secrets,time,uuid,os
+base=os.environ.get('SMOKE_BASE_URL','https://know-me.know-me.workers.dev');jar=http.cookiejar.CookieJar();opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar));username='smoke_'+str(int(time.time()));password=secrets.token_urlsafe(24)
 def api(path,body=None,expected=200):
  req=urllib.request.Request(base+'/api/'+path,data=json.dumps(body).encode() if body is not None else None,headers={'Origin':base,'Content-Type':'application/json','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0.0.0 Safari/537.36'})
  try:r=opener.open(req,timeout=40)
@@ -12,4 +12,5 @@ q={'id':'smoke-q','title':'线上测试：请选择乙','category':'日常生活
 doc=api('documents',{'title':'线上验证专用','questions':[q]});v=api('publish',{'id':doc['id']});api('auth/logout',{});play=api('play/'+v['id']);assert 'correct' not in play['questions'][0]
 client=str(uuid.uuid4());body={'nickname':'线上测试好友','answers':[1],'client':client,'score':999};a=api('play/'+v['id']+'/submit',body);assert a['score']==1;again=api('play/'+v['id']+'/submit',body);assert a['id']==again['id'];rank=api('play/'+v['id']+'/ranking');assert len(rank)==1
 api('auth/recover',{'username':username,'password':secrets.token_urlsafe(24),'recovery':reg['recovery']});print('PRODUCTION SMOKE PASS; synthetic username',username,'user',reg['id'],'document',doc['id'],'version',v['id'])
+
 

@@ -82,3 +82,14 @@ Free D1提供7天Time Travel：`wrangler d1 time-travel info know-me`，恢复�
 
 
 当前已部署版本：75de4753-223f-4926-8496-652448331dc9。线上验证会保留 smoke_ 开头的合成测试账号及其私有问卷；这些不是其他真实访客。
+## 免费Pages备用入口（2026-11-16）
+
+新入口：https://dongni-friends.pages.dev 。与旧入口共用 know-me Worker、D1和账号数据，无需重新注册。Cookie按域名隔离，因此需要重新登录；旧分享链接可保留 /play/ 后面的路径，更换为新域名。
+
+API经Pages Service Binding内部调用 know-me，浏览器不请求 workers.dev。不是只替换首页。
+
+部署：先 pnpm build，node scripts/build-pages.mjs，然后 wrangler pages deploy --project-name dongni-friends --branch main --force --cwd pages 。配置在 pages/wrangler.toml；--force用于明确部署独立Pages，而非工具自动迁移到workers.dev。
+
+已执行 node tests/pages.mjs、TypeScript检查、Vite构建及Pages域名HTTPS核心流程测试，全部通过。SMOKE_BASE_URL可指定scripts/remote_smoke.py测试入口。
+
+**测试链路使用现有系统代理，尚不能证明大陆直连可用；请关闭VPN并使用不同网络实测。**没有购买域名或开通付费套餐。

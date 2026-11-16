@@ -1,0 +1,5 @@
+import assert from 'node:assert/strict';import bridge from '../pages/_worker.js';
+let forwarded;
+const env={BACKEND:{fetch:async r=>{forwarded=r;return new Response('ok',{headers:{'Set-Cookie':'__Host-session=test; Secure; HttpOnly; Path=/'}})}},ASSETS:{fetch:async()=>new Response('static')}};
+const req=new Request('https://dongni-friends.pages.dev/api/auth/login',{method:'POST',headers:{Origin:'https://dongni-friends.pages.dev',Cookie:'__Host-session=existing','Content-Type':'application/json'},body:JSON.stringify({username:'fixture'})});
+const r=await bridge.fetch(req,env);assert.equal(forwarded,req);assert.equal(forwarded.headers.get('Origin'),'https://dongni-friends.pages.dev');assert.equal(forwarded.headers.get('Cookie'),'__Host-session=existing');assert.ok(r.headers.get('Set-Cookie').includes('HttpOnly'));assert.equal((await bridge.fetch(new Request('https://dongni-friends.pages.dev/play/example'),env)).status,200);assert.equal(await (await bridge.fetch(new Request('https://dongni-friends.pages.dev/assets/app.js'),env)).text(),'static');console.log('PASS Pages internal routing, request origin/cookies, response session cookie, SPA/static delegation');

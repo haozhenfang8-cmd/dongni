@@ -1,0 +1,7 @@
+name = "dongni-friends"
+pages_build_output_dir = "../dist-pages"
+compatibility_date = "2026-11-01"
+[[services]]
+binding = "BACKEND"
+service = "know-me"
+

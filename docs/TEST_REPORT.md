@@ -39,3 +39,11 @@ GitHub：源码已推送至 https://github.com/haozhenfang8-cmd/dongni ，初次
 补充：扩大采样曾观察到仅认证迁移后的普通Worker P99为12.5ms，0错误，因此最终把整个API处理放入免费SQLite DO，普通Worker只转发和托管静态资源；最终拓扑再次通过真实HTTPS全流程。没有将小样本7.3ms作为全量保证。
 
 最终部署：75de4753-223f-4926-8496-652448331dc9。额外验证管理员概况API（本地集成）、站内新建问卷入口、编辑器20题分页。Prime账号配置已发布。最近备份另存 backups/after-prime-and-tests.sql，不进入GitHub。
+
+## Pages备用入口
+
+- 生产URL https://dongni-friends.pages.dev ，部署URL https://c5e8ba98.dongni-friends.pages.dev 。
+- Pages桥接单测：API内部转发、Origin/Cookie保留、Set-Cookie返回、SPA/static委托，通过。
+- 新域名真实HTTPS题库、注册、登录、草稿、发布、退出、免注册答题、评分、幂等重试、排行榜、密码恢复：全部200并通过断言。
+- 共享原D1与原账号，未重建或迁移数据库。
+- 无代理大陆/微信手机可达性：等待用户和朋友实测，不标记通过。
